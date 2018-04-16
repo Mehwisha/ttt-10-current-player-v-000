@@ -3,7 +3,7 @@
   while counter <= board.length-1
     if board == "X" || board == "Y"
        board.each do |turns|
-  counter += 1
+       board += 1
 end
        end
        return counter
