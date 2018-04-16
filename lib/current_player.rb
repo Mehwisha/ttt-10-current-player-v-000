@@ -10,8 +10,8 @@
 
  def current_player(board)
 if turn_count % 2 == 0
-  puts "Player X is playing"
+  current_player(board) = "X"
 elsif turn_count % 2 == 1
-  puts "Players O turn"
+  current_player(borad) = "O"
 end
 end
