@@ -9,7 +9,9 @@
  end
 
  def current_player(board)
-if turn_count(board) % 2 == 0
-turn_count(board) == "X"
+if turn_count(board) == 0 || turn_count(board).even?
+return "X"
+elsif  turn_count(board).odd?
+  return "Y"
 end
 end
