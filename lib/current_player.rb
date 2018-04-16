@@ -1,13 +1,13 @@
  def turn_count(board)
    counter = 0
   # while counter <= board.length-1
-   if board == "X" || board == "Y"
+   if board == "X" || board == "O"
        board.each do |space|
-         if space == "X" || space == "Y"
+         if space == "X" || space == "O"
          counter += 1
+            return counter
 
 end
-   return counter
 end
 end
 end
