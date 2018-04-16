@@ -6,10 +6,9 @@
           if space == "X" || space == "O"
           counter += 1
  end
-
  end
-      return counter
  end
+ return counter
  end
 
 
