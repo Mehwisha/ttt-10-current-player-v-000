@@ -5,8 +5,9 @@
        board.each do |space|
          if space == "X" || space == "Y"
          counter += 1
-         return counter
+
 end
+   return counter
 end
 end
 end
