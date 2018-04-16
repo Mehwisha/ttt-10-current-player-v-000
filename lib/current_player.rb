@@ -12,6 +12,6 @@
 if turn_count(board) == 0 || turn_count(board).even?
 return "X"
 elsif  turn_count(board).odd?
-  return "Y"
+  return "O"
 end
 end
