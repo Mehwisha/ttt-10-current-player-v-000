@@ -1,4 +1,5 @@
  def turn_count(board)
+   counter = 0
   while counter <= board.length
 board.each do |turns|
   counter += 1
