@@ -1,12 +1,12 @@
  def turn_count(board)
    counter = 0
   while counter <= board.length-1
-    if board == "X" && board == "Y"
-board.each do |turns|
+    if board == "X" || board == "Y"
+       board.each do |turns|
   counter += 1
 end
-end
-return counter
+       end
+       return counter
 end
 end
 
