@@ -3,7 +3,7 @@
   #  while counter <= board.length-1
    if board == "X" || board == "O"
      board.each do |space|
-          if space == "X" || space == "Y"
+          if space == "X" || space == "O"
           counter += 1
           return counter
  end
