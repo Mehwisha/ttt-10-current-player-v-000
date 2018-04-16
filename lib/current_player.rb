@@ -10,9 +10,6 @@
 
  def current_player(board)
 if turn_count(board) % 2 == 0
-  puts "Current player is X"
-elsif turn_count(board) % 2 == 1
-puts "current player is O"
-
+  current_player(board) == "X"
 end
 end
