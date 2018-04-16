@@ -5,8 +5,8 @@
 board.each do |turns|
   counter += 1
 end
-return counter
 end
+return counter
 end
 end
 
