@@ -4,11 +4,10 @@
     # if board == "X" || board == "Y"
        board.each do |space|
          if space == "X" || space == "Y"
-       counter += 1
+         counter += 1
+         return counter
 end
- return counter
-       end
-
+end
 end
 end
 
